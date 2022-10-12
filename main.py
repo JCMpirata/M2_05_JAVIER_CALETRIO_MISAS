@@ -1,2 +1,21 @@
+#Ejercicio 4
+paises = ["España", "Alemania", "Francia", "Suiza", "Dinamarca"]
+print(paises)
+#Elementos y longitud de los elementos de la lista
+print(paises[0], len(paises[0]))
+print(paises[1], len(paises[1]))
+print(paises[2], len(paises[2]))
+print(paises[3], len(paises[3]))
+print(paises[4], len(paises[4]))
+#Elemento con mayor numero de caracteres
+print(f"El elemento con mas caracteres es: ", paises[4])
+#Palabras ordenadas de menor a mayor longitud
+paises.sort(key=len)
+print(paises)
+#Palabras ordenadas de mayor a menor longitud
+paises.sort(key=len, reverse = True)
+print(paises)
+
+
 
 
