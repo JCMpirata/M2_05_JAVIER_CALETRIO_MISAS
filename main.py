@@ -16,6 +16,16 @@ print(paises)
 paises.sort(key=len, reverse = True)
 print(paises)
 
+#Ejercicio 1
+def pedirNumero():
+  while True:
+    num1 = int(input("Introduce un numero: "))
+    num2 = int(input("Introduce un numero: "))
+    num3 = int(input("Introduce un numero: "))
+    if num1<num2<num3 != 0:
+    print(True)
+
+
 
 
 
