@@ -25,12 +25,7 @@ for letra in frase:
   if letra == "a":
     contador = contador + 1
 print(f"En el texto aparecen {contador} letras a")
-while True:
-  if input() = ".":
-    return False
-  else:
-    funcion()
-    return True
+
 
 print("\n")
 
