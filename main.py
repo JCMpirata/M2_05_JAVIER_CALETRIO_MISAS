@@ -16,6 +16,22 @@ print(paises)
 paises.sort(key=len, reverse = True)
 print(paises)
 
+#Ejercicio 3
+frase = input("Introduce tu texto: ")
+contador = 0
+for letra in frase:
+  if letra == "a":
+    contador = contador + 1
+print(f"En el texto aparecen {contador} letras a")
+
+#Ejercicio 2
+numeros = ["26", "15", "32"]
+if numeros:
+  A = numeros.sort()
+  print("Estan en orden ascendente")
+else:
+  print("No estan en orden ascendente")
+
 #Ejercicio 1
 def pedirNumero():
   while True:
@@ -24,6 +40,8 @@ def pedirNumero():
     num3 = int(input("Introduce un numero: "))
     if num1<num2<num3 != 0:
     print(True)
+
+
 
 
 
