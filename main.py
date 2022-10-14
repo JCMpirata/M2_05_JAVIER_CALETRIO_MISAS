@@ -16,6 +16,8 @@ print(paises)
 paises.sort(key=len, reverse = True)
 print(paises)
 
+print("\n")
+
 #Ejercicio 3
 frase = input("Introduce tu texto: ")
 contador = 0
@@ -23,28 +25,41 @@ for letra in frase:
   if letra == "a":
     contador = contador + 1
 print(f"En el texto aparecen {contador} letras a")
+while True:
+  if input() = ".":
+    return False
+  else:
+    funcion()
+    return True
+
+print("\n")
 
 #Ejercicio 2
-numeros = ["26", "15", "32"]
-if numeros:
-  A = numeros.sort()
-  print("{numeros} Estan en orden ascendente")
+numeros = list()
+A = numeros.append(input("Añade un numero: "))
+A = numeros.append(input("Añade un numero: "))
+A = numeros.append(input("Añade un numero: "))
+if numeros[0] == 0:
+  print("Error")
+elif numeros[0]<numeros[1]<numeros[2]:  
+  print("Estan en orden ascendente")
 else:
-  print("{numeros} No estan en orden ascendente")
+  print("No estan en orden ascendente")
+      
+print("\n")
 
 #Ejercicio 1
-def pedirNumero():
-  while True:
-    num1 = int(input("Introduce un numero: "))
-    num2 = int(input("Introduce un numero: "))
-    num3 = int(input("Introduce un numero: "))
-    num1, num2, num3 != 0
-    if num1<num2<num3:
-      print("Estan en orden ascendente")
-    else:
-      print("No estan en orden ascendente")
+num1 = int(input("Introduce un numero: "))
+num2 = int(input("Introduce un numero: "))
+num3 = int(input("Introduce un numero: "))
+if num1 == 0:
+  print("Error")
+elif num1<num2<num3:
+  print("Estan en orden ascendente")
+else:
+  print("No estan en orden ascendente")
     
-    
+
 
 
 
