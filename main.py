@@ -28,9 +28,9 @@ print(f"En el texto aparecen {contador} letras a")
 numeros = ["26", "15", "32"]
 if numeros:
   A = numeros.sort()
-  print("Estan en orden ascendente")
+  print("{numeros} Estan en orden ascendente")
 else:
-  print("No estan en orden ascendente")
+  print("{numeros} No estan en orden ascendente")
 
 #Ejercicio 1
 def pedirNumero():
@@ -38,8 +38,13 @@ def pedirNumero():
     num1 = int(input("Introduce un numero: "))
     num2 = int(input("Introduce un numero: "))
     num3 = int(input("Introduce un numero: "))
-    if num1<num2<num3 != 0:
-    print(True)
+    num1, num2, num3 != 0
+    if num1<num2<num3:
+      print("Estan en orden ascendente")
+    else:
+      print("No estan en orden ascendente")
+    
+    
 
 
 
